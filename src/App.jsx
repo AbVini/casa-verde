@@ -2,9 +2,11 @@ import styled from "styled-components";
 import AssinaturaNewsletter from "./components/AssinaturaNewsletter";
 import Menu from "./components/Menu";
 import vetorBackground from './assets/Vector.png'
+import Tutorial from './components/Tutorial';
+import Ofertas from "./components/Ofertas";
 
 const Container = styled.div`
-  width: 100vw;
+  width: 60vw;
   height: 100vh;
   margin-left: 20%;
    
@@ -22,7 +24,9 @@ function App() {
     <Container>
       <Menu />
       <AssinaturaNewsletter />
-      <ImagemEstilizada src={vetorBackground}/>
+      <ImagemEstilizada src={vetorBackground} />
+      <Tutorial />
+      <Ofertas/>
     </Container>
 
   )
