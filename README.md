@@ -33,7 +33,7 @@ O projeto Casa Verde é uma aplicação web desenvolvida utilizando a biblioteca
 1. Clone este repositório.
 2. Execute `npm install` para instalar as dependências.
 3. Execute `npm start` para iniciar a aplicação localmente.
-4. se prefeir pode ver o resultado [aqui](https://casa-verde-bjdi.vercel.app)
+4. se prefeir pode ver parcialmente o resultado [aqui](https://casa-verde-bjdi.vercel.app)
 
 ---
 
