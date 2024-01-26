@@ -105,7 +105,7 @@ function Ofertas() {
             <section>
                 {plantasFiltradas.map(planta => (
                     <Card key={planta.ordem}
-                        img={`./src/assets/${planta.img}.png`}
+                        img={`src/assets/${planta.img}.png`}
                         preco={Number(planta.preco).toFixed(2)}
                         titulo={planta.name}
                     />
